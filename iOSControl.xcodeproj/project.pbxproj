@@ -59,6 +59,9 @@
 		29E2CD54226DFB000083E821 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2CD53226DFB000083E821 /* FoodCollectionViewCell.swift */; };
 		29F1A15C224905010017E10B /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1A15A224905010017E10B /* ButtonViewController.swift */; };
 		29F1A15D224905010017E10B /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29F1A15B224905010017E10B /* ButtonViewController.xib */; };
+		A721206928582E8200C6BFD4 /* SemiCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721206828582E8200C6BFD4 /* SemiCircleView.swift */; };
+		A721206E2858320600C6BFD4 /* SemiCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721206C2858320600C6BFD4 /* SemiCircleViewController.swift */; };
+		A721206F2858320600C6BFD4 /* SemiCircleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A721206D2858320600C6BFD4 /* SemiCircleViewController.xib */; };
 		A97000952269D5EF00ABDFD0 /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97000932269D5EF00ABDFD0 /* TableViewViewController.swift */; };
 		A97000962269D5EF00ABDFD0 /* TableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97000942269D5EF00ABDFD0 /* TableViewViewController.xib */; };
 		A970009A2269D61800ABDFD0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97000982269D61800ABDFD0 /* TableViewCell.swift */; };
@@ -131,6 +134,9 @@
 		29E2CD53226DFB000083E821 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
 		29F1A15A224905010017E10B /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 		29F1A15B224905010017E10B /* ButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		A721206828582E8200C6BFD4 /* SemiCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCircleView.swift; sourceTree = "<group>"; };
+		A721206C2858320600C6BFD4 /* SemiCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCircleViewController.swift; sourceTree = "<group>"; };
+		A721206D2858320600C6BFD4 /* SemiCircleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SemiCircleViewController.xib; sourceTree = "<group>"; };
 		A97000932269D5EF00ABDFD0 /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
 		A97000942269D5EF00ABDFD0 /* TableViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewViewController.xib; sourceTree = "<group>"; };
 		A97000982269D61800ABDFD0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -299,6 +305,7 @@
 		293F66AC2172FA000098D203 /* ControlDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A721206728582E4A00C6BFD4 /* Semi Circular */,
 				293F66AE2172FA230098D203 /* TextField */,
 				29F1A159224904D80017E10B /* Button */,
 				AE9D0C67224BA78700614040 /* DatePicker */,
@@ -431,6 +438,16 @@
 			path = Button;
 			sourceTree = "<group>";
 		};
+		A721206728582E4A00C6BFD4 /* Semi Circular */ = {
+			isa = PBXGroup;
+			children = (
+				A721206828582E8200C6BFD4 /* SemiCircleView.swift */,
+				A721206C2858320600C6BFD4 /* SemiCircleViewController.swift */,
+				A721206D2858320600C6BFD4 /* SemiCircleViewController.xib */,
+			);
+			path = "Semi Circular";
+			sourceTree = "<group>";
+		};
 		A97000922269D42F00ABDFD0 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,6 +562,7 @@
 				293F66B22172FA570098D203 /* TextFieldViewController.xib in Resources */,
 				2935AD2F225632AF00AC877E /* SwitchViewController.xib in Resources */,
 				29E2CD3E226DE9240083E821 /* Delegate2ViewController.xib in Resources */,
+				A721206F2858320600C6BFD4 /* SemiCircleViewController.xib in Resources */,
 				2935AD432256401A00AC877E /* PinkViewController.xib in Resources */,
 				296BD470225E1E2A00844956 /* RotateGestureViewController.xib in Resources */,
 				296BD46C225E1E1600844956 /* PanGestureViewController.xib in Resources */,
@@ -600,8 +618,10 @@
 				2935AD462256402900AC877E /* GreenViewController.swift in Sources */,
 				29E2CD51226DF9F40083E821 /* DemoCollectionViewViewController.swift in Sources */,
 				2935AD2A2256306D00AC877E /* UIColor.swift in Sources */,
+				A721206928582E8200C6BFD4 /* SemiCircleView.swift in Sources */,
 				29E2CD4A226DE95B0083E821 /* Notification3ViewController.swift in Sources */,
 				293F66972172EAD10098D203 /* AppDelegate.swift in Sources */,
+				A721206E2858320600C6BFD4 /* SemiCircleViewController.swift in Sources */,
 				293F66AA2172EBCB0098D203 /* MainViewController.swift in Sources */,
 				296BD467225E1E0400844956 /* PinchGestureViewController.swift in Sources */,
 				296BD46F225E1E2A00844956 /* RotateGestureViewController.swift in Sources */,

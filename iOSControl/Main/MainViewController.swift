@@ -13,7 +13,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     // Tạo dữ liệu cho sectionOne
-    var sectionOne = ["UITextField", "UIButton", "UIDatePicker", "UIPickerView", "UISwitch", "UIStepper", "UISegment", "UISegmentWithViewController", "UITableView", "UICollectionView"]
+    var sectionOne = ["UITextField", "UIButton", "UIDatePicker", "UIPickerView", "UISwitch", "UIStepper", "UISegment", "UISegmentWithViewController", "UITableView", "UICollectionView", "SemiCircleView"]
     
     // Tạo dữ liệu cho sectionTwo
     var sectionTwo = ["Tap Gestures", "Swipe Gestures", "Pinch Gestures", "Pan Gestures", "Rotate Gestures", "Long Press Gestures"]
@@ -37,6 +37,7 @@ class MainViewController: UIViewController {
 
 }
 
+@available(iOS 13.0, *)
 extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     // delegate trả về tổng số sections
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -112,6 +113,8 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
                 navigationController?.pushViewController(TableViewViewController(), animated: true)
             case "UICollectionView":
                 navigationController?.pushViewController(DemoCollectionViewViewController(), animated: true)
+            case "SemiCircleView":
+                navigationController?.pushViewController(SemiCircleViewController(), animated: true)
             default:
                 print("default")
             }
